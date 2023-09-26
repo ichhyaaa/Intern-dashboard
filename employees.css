@@ -130,9 +130,16 @@ header{
     font-size: 200%;
     font-weight: 700;
 }
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: black 1px solid; */
+}
 .button{
-    width: 15%;
-    height: 46px;
+    /* width: 15%;
+    height: 46px; */
+    padding: 5px 30px;
     flex-shrink: 0;
     font-size: 20px;
     padding-top: 8px;
@@ -149,12 +156,9 @@ header{
     color: #fff;
 }
 
-.searchContainer{
-    
-}
 .search{
-    width: 20%;
-    height: 46px;
+    /* width: 20%;
+    height: 46px; */
     flex-shrink: 0;
     font-size: 20px;
     padding-top: 8px;
